@@ -1,6 +1,7 @@
 from random import randint
-# The computer will generate a number and you have
-# three gusses to get the number
+# The playerer will generate a number for the answer
+# unlimited gusses to get the number
+
 
 
 
