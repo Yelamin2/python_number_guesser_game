@@ -1,4 +1,5 @@
-
+from level1 import play_computer
+from level3 import play_user
 
 
 
@@ -11,10 +12,10 @@ while play == True:
     print('this is start',mychoice)
     # import level1 or level2 to run for the game.
     if mychoice == 1:
-        import level1
+        play_computer()
         break
     elif mychoice == 2: 
-        import level3
+        play_user()
         break
        
         
@@ -22,6 +23,7 @@ while play == True:
         print('This is not avalid choice')
         continue
     
+
 
     
 
